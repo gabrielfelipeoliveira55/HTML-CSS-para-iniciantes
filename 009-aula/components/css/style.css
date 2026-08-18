@@ -1,0 +1,48 @@
+span {
+
+  display: inline-block;
+  background: #010100;
+  color: #666666;
+
+}
+
+span {
+
+  /* ? PADDING */
+  
+  padding: 30px;
+  padding: 20px 40px;
+  padding: 40px 100px 200px 10px;
+  
+  /* ? MARGIN */
+
+  margin: 30px;
+  margin: 20px 40px;
+  margin: 40px 100px 200px 10px;
+
+  /* ? BORDER */
+  border: 10px solid #111;
+  border-top: 10px solid #11a250;
+  border-right: 10px solid #160250;
+  border-bottom: 10px solid #456789;
+  border-left: 10px solid #8844ee;
+  border-radius: 8px;
+  border-width: 30px 60px;
+
+}
+
+h1 {
+
+  margin-block-start: 30px;
+  margin-block-start: 30px;
+  margin-block-end: 30px;
+  margin-inline-start: 15px;
+  margin-inline-end: 15px;
+
+  padding-block-start: 30px;
+  padding-block-start: 30px;
+  padding-block-end: 30px;
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
+
+}

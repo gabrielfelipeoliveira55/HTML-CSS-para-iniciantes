@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+
+  background: lightblue;
+
+}
+
+div {
+
+  width: 300px;
+
+}
+
+img {
+
+  max-width: 100%;
+  width: 300px; 
+  display: block;
+
+}
+

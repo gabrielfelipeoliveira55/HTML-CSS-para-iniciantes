@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Start Code">
+        <meta name="Author" content="Gabriel Felipe de Oliveira Rateiro">
+
+        <title>Start Code</title>
+
+        <style>
+
+            * {
+
+                color: #ffffff;
+
+            }
+
+            body {
+
+                background: #191919;
+                color: #ffffff;
+
+            }
+
+            #texto {
+
+                color: blue;
+                cursor: pointer;
+                transition: 0.8s ease-in-out;
+
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+
+        <h1 id="texto">Olá, Mundo !</h1>
+
+        <script>
+            
+            let texto = document.querySelector("#texto");
+
+            texto.addEventListener("click", () => {
+
+                
+                function mudar () {
+
+                    texto.style.color = "red";
+
+                }
+
+                mudar();
+
+            })
+
+
+
+
+        </script>
+        
+    </body>
+
+</html>
