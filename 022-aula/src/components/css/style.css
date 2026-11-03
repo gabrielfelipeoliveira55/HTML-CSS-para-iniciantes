@@ -1,0 +1,20 @@
+body {
+
+  padding: 20px;
+
+}
+
+ul,
+ol {
+
+  padding: 0px;
+  margin: 0px;
+  list-style-type: disc inside;   
+
+}
+
+dl, dd {
+
+  margin: 0px;
+
+}
